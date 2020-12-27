@@ -16,6 +16,11 @@ public class Main
 		System.out.println("My favourite mode of transportation is________");
 		transportation = scanner.nextLine(); 
 		System.out.println("The best day of the week is________");
-		day = scanner.nextLine(); 
+		day = scanner.nextLine();
+		
+		System.out.println("Hello " + name);
+		System.out.println("Your favourite colour is " + colour);
+		System.out.println("Your favourite mode of transportation is " + transportation);
+		System.out.println("The best day of the week is " + day);
 	}
 }
